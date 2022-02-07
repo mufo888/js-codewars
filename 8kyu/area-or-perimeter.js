@@ -1,8 +1,4 @@
 const areaOrPerimeter = function(l, w) {
-    if (l === w) {
-        return l * w;
-    } else {
-        return 2 * (l + w);
-    }
+    return (l === w) ? l * w : 2 * (l + w);
 }
 
